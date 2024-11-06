@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+#clockContainer {
+    position: relative;
+    margin: 50px auto;
+    height: 40vw;
+    width: 40vw;
+    background: url("../Images/clock_asosiy.png") no-repeat;
+    background-size: 100%;
+}
+#hour,
+#minute,
+#second {
+    position: absolute;
+    background: #000;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour {
+    width: 2%;
+    height: 25%;
+    top: 25%;
+    left: 48.8%;
+    opacity: 0.8;
+    /* background-color: gold; */
+}
+#minute {
+    width: 1.5%;
+    height: 32%;
+    top: 19%;
+    left: 48.8%;
+    opacity: 0.8;
+    /* background-color: red; */
+}
+#second {
+    width: 1%;
+    height: 42%;
+    top: 9%;
+    left: 49.1%;
+    opacity: 0.8;
+    /* background-color: blue; */
+}
